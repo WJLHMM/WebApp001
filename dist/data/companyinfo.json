@@ -1,0 +1,129 @@
+[
+	{
+		"id":0,
+		"logo":"BOC.png",
+		"companyName":"中国银行",
+		"industry":"互联网",
+		"status":"B轮",
+		"employeeNum":"5-150人",
+		"otherjobs":[{
+				       "classfied": "jishu",
+				        "name": "IOS前端工程师",
+				        "createdDate": "2016-04-16 23:30",
+				        "salary": "15k-25k",
+				         "trigger":true
+                    }, 
+                    {
+				       "classfied": "yunying",
+				        "name": "运营经理",
+				        "createdDate": "2017-04-10 13:30",
+				        "salary": "15k以上",
+				         "trigger":true
+    				},
+    				{
+				       "classfied": "jishu",
+				        "name": "PYTHON工程师",
+				        "createdDate": "2016-04-16 23:30",
+				        "salary": "15k-25k",
+				         "trigger":true
+                    }, 
+                    {
+				       "classfied": "yunying",
+				        "name": "运营总监",
+				        "createdDate": "2016-04-10 13:30",
+				        "salary": "35k以上",
+				         "trigger":true
+    				}
+        ]
+	},
+	{
+		"id":1,
+		"logo":"CCB.png",
+		"companyName":"建设银行",
+		"industry":"金融",
+		"status":"B轮",
+		"employeeNum":"10000-50000人",
+		"otherjobs":[{
+				       "classfied": "jishu",
+				        "name": "前端工程师",
+				        "createdDate": "2018-04-16 23:30",
+				        "salary": "15k-25k",
+				         "trigger":true
+                    },
+                    {
+				       "classfied": "jishu",
+				        "name": "Android前端工程师",
+				        "createdDate": "2018-04-16 23:30",
+				        "salary": "15k-25k",
+				         "trigger":true
+                    }, 
+                    {
+				       "classfied": "yunying",
+				        "name": "运营总监",
+				        "createdDate": "2018-04-10 13:30",
+				        "salary": "25k以上",
+				         "trigger":true
+    					}
+        ]
+	},
+	{
+		"id":2,
+		"logo":"AB.png",
+		"companyName":"农业银行",
+		"industry":"金融",
+		"status":"无融资",
+		"employeeNum":"1000-5000人",
+		"otherjobs":[{
+				       "classfied": "jishu",
+				        "name": "架构前端工程师",
+				        "createdDate": "2016-04-16 23:30",
+				        "salary": "15k-25k",
+				        "trigger":true
+                    }, 
+                    {
+				       "classfied": "yunying",
+				        "name": "运营总监",
+				        "createdDate": "2016-04-10 13:30",
+				        "salary": "25k以上",
+				        "trigger":true
+    				},
+    				{
+				       "classfied": "yunying",
+				        "name": "产品经理",
+				        "createdDate": "2016-04-10 13:30",
+				        "salary": "15k以上",
+				        "trigger":true
+    				}
+        ]
+	},
+	{
+		"id":3,
+		"logo":"PDB.png",
+		"companyName":"浦东发展银行",
+		"industry":"教育",
+		"status":"天使轮",
+		"employeeNum":"1600-5400人",
+		"otherjobs":[{
+				       "classfied": "jishu",
+				        "name": "精算前端工程师",
+				        "createdDate": "2016-04-16 23:30",
+				        "salary": "55k-75k",
+				        "trigger":true
+                    },
+                    {
+				       "classfied": "jishu",
+				        "name": "java工程师",
+				        "createdDate": "2015-04-16 23:30",
+				        "salary": "25k-35k",
+				         "trigger":true
+                    }, 
+                    {
+				       "classfied": "yunying",
+				        "name": "运营总监",
+				        "createdDate": "2019-04-10 13:30",
+				        "salary": "25k以上",
+				         "trigger":true
+    				}
+        ]
+	}
+]

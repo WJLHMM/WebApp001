@@ -1,0 +1,113 @@
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+.pr {
+  position: relative;
+}
+.pa {
+  position: absolute;
+}
+.pf {
+  position: fixed;
+}
+.db {
+  display: block;
+}
+.dib {
+  display: inline-block;
+}
+.dn {
+  display: none;
+}
+.dt {
+  display: table;
+}
+.df {
+  display: flex;
+}
+.clearfix::before,
+.clearfix::after {
+  content: '';
+  line-height: 0;
+  height: 0;
+  visibility: hidden;
+  clear: both;
+  display: block;
+}
+.tac {
+  text-align: center;
+}
+.tal {
+  text-align: left;
+}
+.tar {
+  text-align: right;
+}
+.vat {
+  vertical-align: top;
+}
+.vam {
+  vertical-align: middle;
+}
+.vab {
+  vertical-align: bottom;
+}
+.ls {
+  list-style: none;
+}
+.foot {
+  height: 2.66666667rem;
+  line-height: 2.66666667rem;
+  width: 100%;
+  padding: 0rem 0rem 0rem 0rem;
+  margin: 0rem 0rem 0rem 0rem;
+  border-top: 0.08rem solid #A59797;
+  -webkit-border-top: 0.08rem solid #A59797;
+  border-bottom: 0.08rem solid #A59797;
+  -webkit-border-bottom: 0.08rem solid #A59797;
+  list-style: none;
+  background-color: #fff;
+  display: flex;
+  bottom: 0rem;
+  left: 0rem;
+  position: fixed;
+}
+.foot .footlist {
+  flex: 1;
+  text-align: center;
+  width: 33.3%;
+  height: 2.66666667rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0rem 0rem 0rem 0rem;
+  margin: 0rem 0rem 0rem 0rem;
+}
+.foot .footlist:hover {
+  background-color: #11F4FB;
+  color: #6204F9;
+}
+.foot .footlist .positionicon {
+  height: 1.33333333rem;
+  width: 1.33333333rem;
+  margin: 0rem 0.13333333rem 0rem 0rem;
+  background: url(../image/position.png) no-repeat;
+}
+.foot .footlist .searchicon {
+  height: 1.33333333rem;
+  width: 1.33333333rem;
+  margin: 0rem 0.13333333rem 0rem 0rem;
+  background: url(../image/search.png) no-repeat;
+}
+.foot .footlist .myprofileicon {
+  height: 1.33333333rem;
+  width: 1.33333333rem;
+  margin: 0rem 0.13333333rem 0rem 0rem;
+  background: url(../image/myprofile.png) no-repeat;
+}
+.foot .footlist .foottext {
+  font-size: 1.06666667rem;
+}

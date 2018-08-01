@@ -1,0 +1,53 @@
+@import '../variable.less';
+@import '../function.less';
+@import '../property.less';
+
+.positionlist {
+	.ls;
+	.dt;
+	.wp(100%);
+	.bgc(#fff);
+	.padding(0,10,0,10);
+	.margin(10,0,0,0);
+	.positionlistitem {
+		.wp(100%);
+		.df;
+		.jc(flex-start);
+		.borderb(5,solid,@borderbColor);
+		&:hover {
+			.bgc(#FBE3C9);
+		}
+		.companylogo {
+			.w(200);
+			.h(200);
+		}
+		.maincompanyinfo {
+			.padding(10,0,0,0);
+			.margin(0,0,0,20);
+			.positionname {
+				.fs(50);
+				.hp(25%);
+				.padding(0,0,5,0);
+				.margin(0,0,8,0);
+			}
+			span {
+				.fs(40);
+			}
+			.maincompanyinf_span1{
+				.margin(0,0,0,20);
+			}
+			.star1 {
+				.margin(0,0,0,200);
+				.padding(0,0,0,0);
+			}
+			.postinfo {
+				.fs(40);
+				.hp(30%);
+				.margin(5,0,0,0);
+			}
+		}
+		
+	}
+	
+	
+}

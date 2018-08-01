@@ -1,0 +1,32 @@
+@import '../variable.less';
+@import '../function.less';
+@import '../property.less';
+
+.head {
+	.bgc(@headBgColor);
+	.h(100);
+	.l_h(100);
+	.wp(100%);
+    .padding(0,10,0,10);
+    .margin(0,0,0,0);
+    .df;
+    .pf;
+    .t(0);
+    .l(0);
+    .jc(space-between);
+    .ai(center);
+    .border(3,solid,@headBgColor);
+	.text {
+		.c(@defaultColor);
+		.fs(40);
+	}
+	.custom {
+		.bgc(@headbuttonColor);
+		.c(@defaultColor);
+		.border(2,dashed,@headbuttonColor);
+		.fs(40);
+		.margin(7,7,7,0);
+		.w(200);
+		
+	}
+}

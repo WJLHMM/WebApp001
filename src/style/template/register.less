@@ -1,0 +1,99 @@
+@import '../variable.less';
+@import '../function.less';
+@import '../property.less';
+
+.register {
+	background:url(../image/12.png) no-repeat center center;
+	background-size: cover;
+	.pa;
+	.t(0);
+	.b(0);
+	.l(0);
+	.r(0);
+	.df;
+	.fd(column);
+    .jc(center);
+    .ai(center);
+    form {
+    	.pr;
+    	.df;
+    	.fd(column);
+    	.jc(center);
+    	.ai(center);
+    	.margin(100,0,0,0);
+    	img{
+			.w(100);
+			.h(80);
+			.pa;
+			.db;
+			border-width: 0;
+			.bgc(#000);
+			opacity:0.6;
+    	}
+    	.img1 {
+    		.t(6);
+    		.l(0);
+    	}
+    	.img2 {
+    		.t(96);
+    		.l(0);
+    	}
+    	input{
+			.w(500);
+			.h(90);
+			.bgc(#131111);
+            .padding(0,0,0,200);
+            .fs(40);
+            .c(red);
+			border-width: 0;
+			opacity:0.5;
+            font-weight: bold;
+    	}
+    	.inp1{
+    		.borderb(3,solid,@defaultColor);
+    	}
+    }
+    .mobile_message {
+        .df;
+        .fd(row);
+        .jc(center);
+        .ai(center);
+        .inp3{
+            .fs(30);
+            .w(350);
+            .h(70);
+            .c(@defaultColor);
+            .bgc(blue);
+            .margin(0,90,0,0);
+            .padding(0,0,0,0);
+            .ta(center);
+        }
+        .login_btn0{
+            .w(250);
+            .h(50);
+            .fs(13);
+            opacity:0.5;
+            .c(@headBgColor);
+            .bgc(#131111);
+            .border(1,solid,@defaultColor);
+            .margin(0,0,0,0);
+        }
+    }
+
+    button {
+    	.w(700);
+    	.h(100);
+    	.margin(200,0,0,0);
+        .border(2,solid,@headBgColor);
+    	// border-width: 0;
+		.bgc(#01FCEA);
+    	&:hover {
+    		.bgc(@headBgColor);
+    		.c(@defaultColor);
+    	}
+    }
+    .login_btn2 {
+    	.margin(30,0,0,0);
+    }
+	
+}

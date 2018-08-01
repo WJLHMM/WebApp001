@@ -1,0 +1,65 @@
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+.pr {
+  position: relative;
+}
+.pa {
+  position: absolute;
+}
+.pf {
+  position: fixed;
+}
+.db {
+  display: block;
+}
+.dib {
+  display: inline-block;
+}
+.dn {
+  display: none;
+}
+.dt {
+  display: table;
+}
+.df {
+  display: flex;
+}
+.clearfix::before,
+.clearfix::after {
+  content: '';
+  line-height: 0;
+  height: 0;
+  visibility: hidden;
+  clear: both;
+  display: block;
+}
+.tac {
+  text-align: center;
+}
+.tal {
+  text-align: left;
+}
+.tar {
+  text-align: right;
+}
+.vat {
+  vertical-align: top;
+}
+.vam {
+  vertical-align: middle;
+}
+.vab {
+  vertical-align: bottom;
+}
+.ls {
+  list-style: none;
+}
+.appShieldsearch1 {
+  margin: 5.54666667rem 0rem 0rem 0rem;
+  width: 100%;
+  height: 0rem;
+}

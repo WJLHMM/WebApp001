@@ -1,0 +1,153 @@
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+.pr {
+  position: relative;
+}
+.pa {
+  position: absolute;
+}
+.pf {
+  position: fixed;
+}
+.db {
+  display: block;
+}
+.dib {
+  display: inline-block;
+}
+.dn {
+  display: none;
+}
+.dt {
+  display: table;
+}
+.df {
+  display: flex;
+}
+.clearfix::before,
+.clearfix::after {
+  content: '';
+  line-height: 0;
+  height: 0;
+  visibility: hidden;
+  clear: both;
+  display: block;
+}
+.tac {
+  text-align: center;
+}
+.tal {
+  text-align: left;
+}
+.tar {
+  text-align: right;
+}
+.vat {
+  vertical-align: top;
+}
+.vam {
+  vertical-align: middle;
+}
+.vab {
+  vertical-align: bottom;
+}
+.ls {
+  list-style: none;
+}
+.register {
+  background: url(../image/12.png) no-repeat center center;
+  background-size: cover;
+  position: absolute;
+  top: 0rem;
+  bottom: 0rem;
+  left: 0rem;
+  right: 0rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.register form {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 2.66666667rem 0rem 0rem 0rem;
+}
+.register form img {
+  width: 2.66666667rem;
+  height: 2.13333333rem;
+  position: absolute;
+  display: block;
+  border-width: 0;
+  background-color: #000;
+  opacity: 0.6;
+}
+.register form .img1 {
+  top: 0.16rem;
+  left: 0rem;
+}
+.register form .img2 {
+  top: 2.56rem;
+  left: 0rem;
+}
+.register form input {
+  width: 13.33333333rem;
+  height: 2.4rem;
+  background-color: #131111;
+  padding: 0rem 0rem 0rem 5.33333333rem;
+  font-size: 1.06666667rem;
+  color: red;
+  border-width: 0;
+  opacity: 0.5;
+  font-weight: bold;
+}
+.register form .inp1 {
+  border-bottom: 0.08rem solid #fff;
+  -webkit-border-bottom: 0.08rem solid #fff;
+}
+.register .mobile_message {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.register .mobile_message .inp3 {
+  font-size: 0.8rem;
+  width: 9.33333333rem;
+  height: 1.86666667rem;
+  color: #fff;
+  background-color: blue;
+  margin: 0rem 2.4rem 0rem 0rem;
+  padding: 0rem 0rem 0rem 0rem;
+  text-align: center;
+}
+.register .mobile_message .login_btn0 {
+  width: 6.66666667rem;
+  height: 1.33333333rem;
+  font-size: 0.34666667rem;
+  opacity: 0.5;
+  color: #06C8F6;
+  background-color: #131111;
+  border: 0.02666667rem solid #fff;
+  margin: 0rem 0rem 0rem 0rem;
+}
+.register button {
+  width: 18.66666667rem;
+  height: 2.66666667rem;
+  margin: 5.33333333rem 0rem 0rem 0rem;
+  border: 0.05333333rem solid #06C8F6;
+  background-color: #01FCEA;
+}
+.register button:hover {
+  background-color: #06C8F6;
+  color: #fff;
+}
+.register .login_btn2 {
+  margin: 0.8rem 0rem 0rem 0rem;
+}

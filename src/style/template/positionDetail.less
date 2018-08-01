@@ -1,0 +1,46 @@
+@import '../variable.less';
+@import '../function.less';
+@import '../property.less';
+
+.positionDetail {
+	.ls;
+    .fs(40);
+    .h(250);
+    .bgc(@defaultColor);
+    .padding(40,10,0,20);
+    .margin(0,0,0,0);
+    .borderb(2,solid,@borderbColor);
+    .jobsalary {
+        .padding(10,0,0,0);
+        
+        .job{
+            .margin(0,50,0,0);
+       }
+       .salary{
+            .c(red);
+       }
+    }
+    .ciexdi {
+      .padding(20,0,0,0);
+      .city{
+        .margin(0,50,0,0);
+      }
+      .experence{
+        .margin(0,50,0,0);
+      } 
+      .dipl{
+        .margin(0,300,0,0);
+      } 
+      .star{
+        .fs(50);
+        &:hover {.c(red);}
+      }
+    }
+    
+    .pvisi {
+      .padding(20,0,0,0);
+	    .vision{
+        .margin(0,50,0,0);
+      }
+    }
+}

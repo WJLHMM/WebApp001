@@ -1,0 +1,107 @@
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+.pr {
+  position: relative;
+}
+.pa {
+  position: absolute;
+}
+.pf {
+  position: fixed;
+}
+.db {
+  display: block;
+}
+.dib {
+  display: inline-block;
+}
+.dn {
+  display: none;
+}
+.dt {
+  display: table;
+}
+.df {
+  display: flex;
+}
+.clearfix::before,
+.clearfix::after {
+  content: '';
+  line-height: 0;
+  height: 0;
+  visibility: hidden;
+  clear: both;
+  display: block;
+}
+.tac {
+  text-align: center;
+}
+.tal {
+  text-align: left;
+}
+.tar {
+  text-align: right;
+}
+.vat {
+  vertical-align: top;
+}
+.vam {
+  vertical-align: middle;
+}
+.vab {
+  vertical-align: bottom;
+}
+.ls {
+  list-style: none;
+}
+.persionalogui {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.persionalogui .persionalogui_img {
+  width: 5.33333333rem;
+  height: 5.33333333rem;
+  border-radius: 5.33333333rem;
+  -webkit-border-radius: 5.33333333rem;
+  margin: 5.33333333rem 0rem 0rem 0rem;
+}
+.persionalogui .persionalogui_name {
+  width: 5.33333333rem;
+  height: 1.6rem;
+  font-size: 1.06666667rem;
+  margin: 2.66666667rem 0rem 0rem 0rem;
+}
+.persionalogui .persionalogui_buts {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2.66666667rem 0rem 0rem 0rem;
+}
+.persionalogui .persionalogui_buts button {
+  width: 9.33333333rem;
+  height: 7.46666667rem;
+  font-size: 1.06666667rem;
+  background-color: #06C8F6;
+  color: #fff;
+  border: 0.02666667rem solid #06C8F6;
+}
+.persionalogui .persionalogui_buts .persionalogui_buts_btn1 {
+  margin: 0rem 1.33333333rem 0rem 0rem;
+}
+.persionalogui .persionalogui_btn3 {
+  width: 20rem;
+  height: 2.66666667rem;
+  font-size: 1.06666667rem;
+  color: #fff;
+  background-color: #F72002;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 0.02666667rem solid #F72002;
+}

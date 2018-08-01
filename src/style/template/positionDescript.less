@@ -1,0 +1,26 @@
+@import '../variable.less';
+@import '../function.less';
+@import '../property.less';
+
+.positionDescript {
+	.ls;
+    .fs(40);
+    .bgc(@defaultColor);
+    .padding(20,0,0,0);
+    .margin(0,0,0,0);
+    .borderb(1,solid,@borderbColor);
+    li {
+       .padding(10,0,0,20); 
+    }
+    li:nth-child(1) {
+        .fs(40);
+        .padding(10,0,30,20); 
+        .borderb(1,solid,@borderbColor);
+    } 
+    
+    li:nth-last-child(1) {
+        .padding(10,0,20,20); 
+        .borderb(1,solid,@borderbColor);
+
+    }
+}

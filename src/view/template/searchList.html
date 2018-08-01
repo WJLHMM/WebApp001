@@ -1,0 +1,19 @@
+<div class="searchList">
+	<ul >
+		<li ng-click="finditem({id:v.id,name:v.name})" ng-repeat="v in searchlistdata" ng-bind="v.name" ></li>
+		<!-- 注意在指令实行了scope{}后，内置事件调用controller时要加上$parent.fn()才有效，另外如果 -->
+		<!-- <li ng-click="$parent.searchlisthide()">取消</li> -->
+		<!-- 指令只使用一次不需要定义scope即可 -->
+		<!-- 以下就是默认scope，scope :false的代码效果一样,建议还是隔离好 -->
+		<!-- <li  ng-repeat="v in searchlistinfo" ng-bind="v.name" ng-click="finditem($index)"></li> -->
+		<!-- <li ng-click="searchlisthide()">取消</li> -->
+
+
+	</ul>
+	<button ng-click="$parent.searchlisthide()" >取消</button>
+	<!-- <button ng-click="searchlisthide()" >取消</button> -->
+
+
+</div>
+	
+	

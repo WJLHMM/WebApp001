@@ -1,0 +1,21 @@
+<ul class="positionlist" >
+	<li ui-sref="positioninfo({id:v.id})" class="positionlistitem" ng-repeat="v in data">
+	<!-- <li ui-sref="positioninfo({company:v.companyName,jd:v.position})" class="positionlistitem" ng-repeat="v in data"> -->
+		<!-- <img class="companylogo" src='image/xlxx.jpg' alt=""> -->
+		<img class="companylogo" ng-src='image/{{v.logo}}' alt="此图片无法显示">
+		<div class="maincompanyinfo">
+			<strong class="positionname" ng-bind="v.position"></strong>
+			<span class="maincompanyinf_span1"ng-bind="v.salary"></span>
+			<br>
+			<span ng-bind="v.scale"></span>
+			<span class="star1" ng-bind="data4">☆</span>
+			<p class="postinfo" ng-cloak> {{v.companyName}} 【{{v.city}}】 {{v.industry}}<br>
+				{{v.reposttime}}
+			</p>
+
+		<!-- 	<p class="postinfo" ng-bind="v.companyName+'【' +v.city+'】'+v.industry">
+			</p>
+			<p class="postinfo" ng-bind="v.reposttime"></p> -->
+		</div>
+	</li>
+</ul>

@@ -1,0 +1,88 @@
+.fs(@px){
+	font-size:unit(@px/@standsize,rem);//数值@standsize是根据index中设置的，可以调整表示1rem=@standsizepx
+}
+.fc(@px){
+	color:@px;
+}
+
+.w(@px){
+	width: unit(@px/@standsize,rem);
+}
+.wp(@px){
+	width:@px;
+}
+.max-width(@v:640px){
+	max-width: unit(@v/@standsize,rem);
+};
+ 
+.h(@px){
+	height: unit(@px/@standsize,rem);
+}
+.hp(@px){
+	height: @px;
+}
+.c(@color){
+	color:@color;
+}
+.bgc(@px){
+	background-color: @px;
+}
+.l_h(@px){
+	line-height: unit(@px/@standsize,rem);
+}
+.border(@w:1px,@style:solid,@bdcolor:#000) {
+	border: unit(@w/@standsize,rem) @style @bdcolor;
+}
+
+.bordert (@w:1px,@style:solid,@bdcolor:#000){
+	border-top:unit(@w/@standsize,rem) @style @bdcolor;
+	-webkit-border-top:unit(@w/@standsize,rem) @style @bdcolor;
+}
+.borderb (@w:1px,@style:solid,@bdcolor:#000){
+	border-bottom:unit(@w/@standsize,rem) @style @bdcolor;
+	-webkit-border-bottom:unit(@w/@standsize,rem) @style @bdcolor;
+}
+
+.borderrad(@v:3) {
+    border-radius:unit(@v/@standsize,rem);
+    -webkit-border-radius:unit(@v/@standsize,rem);
+}
+.margin(@pxt:0px,@pxr:0px,@pxb:0px,@pxl:0px) {
+	margin: unit(@pxt/@standsize,rem) unit(@pxr/@standsize,rem) unit(@pxb/@standsize,rem) unit(@pxl/@standsize,rem);
+}
+
+.padding(@pxt:0px,@pxr:0px,@pxb:0px,@pxl:0px) {
+	padding: unit(@pxt/@standsize,rem) unit(@pxr/@standsize,rem) unit(@pxb/@standsize,rem) unit(@pxl/@standsize,rem);
+}
+
+.t(@px:0){
+	top:unit(@px/@standsize,rem);
+}
+.b(@px:0){
+	bottom:unit(@px/@standsize,rem);
+}
+.l(@px:0){
+	left:unit(@px/@standsize,rem);
+}
+.r(@px:0){
+	right:unit(@px/@standsize,rem);
+}
+
+.jc(@px){
+	justify-content: @px;
+}
+.ai(@px){
+	align-items:@px;
+}
+
+.fd(@v) {
+	flex-direction:@v;
+}
+
+.ta(@v) {
+	text-align:@v;
+}
+.va(@v) {
+	vertical-align:@v;
+	
+}

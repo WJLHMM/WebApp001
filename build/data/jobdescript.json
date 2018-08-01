@@ -1,0 +1,62 @@
+[
+	{
+		"id":0,
+		"position":"销售",
+		"salary":"3k-5k",
+		"city":"上海",
+		"workingexperience":"1-3年",
+		"education":"大专",
+		"vision":"成长空间大",
+		"logo":"BOC.png",
+		"companyName":"中国银行",
+		"industry":"互联网",
+		"status":"B轮",
+		"employeeNum":"5-150人",
+		"jd": "1.销售产品\n2.技术推广产品\n3.客服"
+	},
+	{
+		"id":1,
+		"position":"前端web开发",
+		"salary":"13k-15k",
+		"city":"广州",
+		"workingexperience":"3-5年",
+		"education":"本科",
+		"vision":"成长空间大",
+		"logo":"CCB.png",
+		"companyName":"建设银行",
+		"industry":"金融",
+		"status":"B轮",
+		"employeeNum":"10000-50000人",
+		"jd": "1.前端开发\n2.技术推广产品\n3.客服"
+	},
+	{
+		"id":2,
+		"position":"架构师",
+		"salary":"13k-15k",
+		"city":"北京",
+		"workingexperience":"5-10年",
+		"education":"本科",
+		"vision":"成长空间大",		
+		"logo":"AB.png",
+		"companyName":"农业银行",
+		"industry":"金融",
+		"status":"无融资",
+		"employeeNum":"1000-5000人",
+		"jd": "1.架构师\n2.编写js架构"
+	},
+	{
+		"id":3,
+		"position":"精算师",
+		"salary":"13k-15k",
+		"city":"上海",
+		"workingexperience":"8-10年",
+		"education":"本科",
+		"vision":"成长空间大",
+		"logo":"PDB.png",
+		"companyName":"浦东发展银行",
+		"industry":"教育",
+		"status":"天使轮",
+		"employeeNum":"1600-5400人",
+		"jd":"1.负责保险业务的精算\n2.培训\n3.管理团队"
+	}
+]

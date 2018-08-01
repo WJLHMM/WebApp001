@@ -1,0 +1,37 @@
+@import '../variable.less';
+@import '../function.less';
+@import '../property.less';
+
+.companyjobClassfied {
+    .h(250);
+    .df;
+    .fd(column);
+    .jc(space-between);
+    .bgc(@defaultColor);
+    .padding(20,0,0,5);
+    .margin(0,0,0,0);
+    .borderb(3,solid,@borderbColor);
+    strong {
+        .fs(45);
+    }
+    p {
+        .padding(0,0,0,20);
+        button {
+            .fs(45);
+            .margin(0,30,0,0);
+            .w(200);
+            .h(80);
+            .border(3,solid,@borderbColor);
+            .borderrad(50);
+            .bgc(#0AFAF3);
+            &:hover {
+                .c(@defaultColor);
+                .bgc(#050FF9);
+            }
+        }
+        button:nth-child(1) {
+            .fs(35);
+        }
+    }
+    
+}

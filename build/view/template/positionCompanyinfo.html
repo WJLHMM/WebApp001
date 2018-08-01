@@ -1,0 +1,18 @@
+<div class="positionCompanyinfo">
+	<p class="pciimage">
+		<img ng-src="image/{{pinfo.logo}}" alt="">
+	</p>
+	<!-- <ul class="pciinfo" ui-sref="company"> -->
+	<ul class="pciinfo" ui-sref="company({company:pinfo.companyName})">
+		<li>
+			<span ng-bind="pinfo.companyName"></span>
+		</li>
+		<li>
+			<span ng-bind="pinfo.industry"></span>
+			<span>/</span>
+			<span ng-bind="pinfo.status"></span>
+			<span>/</span>
+			<span ng-bind="pinfo.employeeNum"></span>
+		</li>
+	</ul>
+</div>

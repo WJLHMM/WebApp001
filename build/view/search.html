@@ -1,0 +1,10 @@
+<div ng-controller="searchCtrl">
+	<div search-head cancelsearch="cancel()" keysearch="searchkeyfn(searchkey)" searchkey="searchkey"></div>
+	<div search-tab searchlistshow="searchlistshow(item)" tabdata="tabtext"></div>
+	<div app-shieldsearch1></div>
+    <h1 class="searchNoresult" search-noresult ng-show="visibility1"></h1>
+	<div app-positionlist data="info[0]"></div>
+	<div app-foot data3="text3"></div> 
+	<div search-list finditem="select(id,name)" searchlistdata="searchlistinfo" ng-show="visibility"></div> 
+</div>
+	

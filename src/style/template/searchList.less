@@ -1,0 +1,50 @@
+@import '../variable.less';
+@import '../function.less';
+@import '../property.less';
+
+		
+.searchList {
+	.wp(100%);
+	.pf;
+	.b(0);
+	.l(0);
+	.bgc(@borderbColor);
+	.padding(0,10,0,10);
+   	.margin(0,0,0,0);
+    box-sizing:border-box;
+    .border(1,solid,@borderbColor);
+    z-index:99;
+	ul {
+		.wp(100%);
+		.dt;
+		.bgc(@defaultColor);
+		 padding-inline-start: 0px;
+		.padding(0,0,0,0);
+		.margin(-1,0,0,0);
+		// .borderrad(20);
+		li{
+			.ls;
+			.h(100);
+			.fs(50);
+			.ta(center);
+			.l_h(100);
+			.borderb(1,solid,@borderbColor);
+			.c(#0D32F5);
+		}
+		
+		}
+		li:first-child {
+			.bordert(1,solid,@borderbColor)
+		}
+	
+	}
+	button {
+		.wp(100%);
+		.h(100);
+		.fs(50);
+		.c(#0D32F5);
+		.bgc(@defaultColor);
+		.borderb(10,solid,@borderbColor);
+		.bordert(10,solid,@borderbColor);
+			
+}

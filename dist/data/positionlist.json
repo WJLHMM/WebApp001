@@ -1,0 +1,46 @@
+[
+	{
+		"id":0,
+		"logo":"BOC.png",
+		"position":"销售",
+		"companyName":"中国银行",
+		"city":"上海",
+		"industry":"互联网",
+		"salary":"3000~4999",
+		"scale":"500人以上",
+		"reposttime":"2018-7-16 22:01"
+	},
+	{
+		"id":1,
+		"logo":"CCB.png",
+		"position":"前端web开发",
+		"companyName":"建设银行",
+		"city":"广州",
+		"industry":"金融",
+		"salary":"10000~15000",
+		"scale":"少于50人",
+		"reposttime":"2018-7-16 23:01"
+	},
+	{
+		"id":2,
+		"logo":"AB.png",
+		"position":"架构师",
+		"companyName":"农业银行",
+		"city":"北京",
+		"industry":"金融",
+		"salary":"25000以上",
+		"scale":"100~500人",
+		"reposttime":"2018-7-16 23:11"
+	},
+	{
+		"id":3,
+		"logo":"PDB.png",
+		"position":"精算师",
+		"companyName":"浦东发展银行",
+		"city":"上海",
+		"industry":"教育",
+		"salary":"15000~25000",
+		"scale":"50~100人",
+		"reposttime":"2018-7-16 23:51"
+	}
+]

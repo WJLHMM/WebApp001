@@ -1,0 +1,32 @@
+@import '../variable.less';
+@import '../function.less';
+@import '../property.less';
+
+.searchTab {
+	.bgc(@defaultColor);
+	.wp(100%);
+	.h(100);
+	.ls;
+	.df;
+	.pf;
+	.t(65);
+	.l(0);
+	.jc(space-around);
+	.ai(center);
+	.fs(40);
+	padding-inline-start: 0px;
+	.borderb(2,solid,@borderbColor);
+	// li:first-child {
+	// 	.borderb(5,solid,@headBgColor);
+	// }
+	li {
+		flex:1;
+		.hp(100%);
+		.ta(center);
+		.l_h(100%);
+		.borderb(5,solid,@defaultColor);
+		&:hover {
+			.borderb(5,solid,@headBgColor);
+		} 
+	}
+}

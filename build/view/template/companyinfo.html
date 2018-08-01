@@ -1,0 +1,17 @@
+<div class="companyinfo">
+	<p class="ciimage">
+		<img ng-src="image/{{cinfo.logo}}" alt="">
+	</p>
+	<ul class="ciinfo">
+		<li>
+			<span ng-bind="cinfo.companyName"></span>
+		</li>
+		<li>
+			<span ng-bind="cinfo.industry"></span>
+			<span>/</span>
+			<span ng-bind="cinfo.status"></span>
+			<span>/</span>
+			<span ng-bind="cinfo.employeeNum"></span>
+		</li>
+	</ul>
+</div>
